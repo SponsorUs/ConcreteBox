@@ -36,6 +36,15 @@ body {
     z-index: 999
 }
 
+.banner-content a {
+  background: #0078ff;
+  color: white;
+  padding: 12px 60px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  font-size: 20px;
+}
 
 .banner-content {
     position: absolute;
@@ -46,11 +55,13 @@ body {
     align-items: center;
     width: 100%;
     z-index: 999;
+    flex-direction: column;
+    
 }
 
 .banner-content h1 {
     margin: 0;
-    font-size: 54px;
+    font-size: 64px;
     color: white;
     margin-bottom: 20px;
     text-shadow: 4px 4px black;
@@ -79,9 +90,6 @@ body {
     left: 0;
     width: 100%;
     z-index: 2; /* Ensure header is above banner */
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
     
     
 }
